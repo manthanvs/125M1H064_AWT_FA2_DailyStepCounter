@@ -1,0 +1,34 @@
+{
+  "name": "daily-step-counter-interface",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Daily Step Counter Interface - AWT Mini Project Phase II (FA-2)",
+  "author": "Sankpal Manthan Vijay (125M1H064)",
+  "scripts": {
+    "dev": "vite",
+    "api": "json-server --watch db.json --port 3001",
+    "start": "concurrently -n api,web -c magenta,cyan \"npm:api\" \"npm:dev\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@vitejs/plugin-react": "^5.0.4",
+    "concurrently": "^9.2.1",
+    "jsdom": "^27.0.0",
+    "json-server": "^0.17.4",
+    "vite": "^7.1.12",
+    "vitest": "^3.2.4"
+  }
+}

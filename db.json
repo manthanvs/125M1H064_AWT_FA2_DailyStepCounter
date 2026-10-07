@@ -1,0 +1,495 @@
+{
+  "activities": [
+    {
+      "id": "1",
+      "label": "Evening jog",
+      "steps": 1700,
+      "date": "2026-08-15",
+      "time": "07:00",
+      "type": "Jog",
+      "note": "Walked with friends."
+    },
+    {
+      "id": "2",
+      "label": "Campus to canteen",
+      "steps": 5100,
+      "date": "2026-08-15",
+      "time": "12:30",
+      "type": "Commute",
+      "note": "Took the long route."
+    },
+    {
+      "id": "3",
+      "label": "Morning run",
+      "steps": 5000,
+      "date": "2026-08-15",
+      "time": "13:15",
+      "type": "Run",
+      "note": "Took the long route."
+    },
+    {
+      "id": "4",
+      "label": "Morning run",
+      "steps": 2300,
+      "date": "2026-08-16",
+      "time": "07:15",
+      "type": "Run",
+      "note": "Cooler than yesterday."
+    },
+    {
+      "id": "5",
+      "label": "Weekend hike",
+      "steps": 1300,
+      "date": "2026-08-16",
+      "time": "11:45",
+      "type": "Hike",
+      "note": "Took the long route."
+    },
+    {
+      "id": "6",
+      "label": "Walk from station",
+      "steps": 1000,
+      "date": "2026-08-16",
+      "time": "12:45",
+      "type": "Commute",
+      "note": "Cooler than yesterday."
+    },
+    {
+      "id": "7",
+      "label": "Evening jog",
+      "steps": 1800,
+      "date": "2026-08-16",
+      "time": "17:15",
+      "type": "Jog",
+      "note": "Rushed, light drizzle."
+    },
+    {
+      "id": "8",
+      "label": "Track jog",
+      "steps": 3250,
+      "date": "2026-08-17",
+      "time": "12:00",
+      "type": "Jog",
+      "note": "Cooler than yesterday."
+    },
+    {
+      "id": "9",
+      "label": "Morning walk",
+      "steps": 1450,
+      "date": "2026-08-17",
+      "time": "13:45",
+      "type": "Walk",
+      "note": "Felt good, steady pace."
+    },
+    {
+      "id": "10",
+      "label": "Walk in the park",
+      "steps": 2350,
+      "date": "2026-08-17",
+      "time": "18:30",
+      "type": "Walk",
+      "note": "Short but brisk."
+    },
+    {
+      "id": "11",
+      "label": "Evening walk",
+      "steps": 2200,
+      "date": "2026-08-17",
+      "time": "19:15",
+      "type": "Walk",
+      "note": ""
+    },
+    {
+      "id": "12",
+      "label": "Walk from station",
+      "steps": 2300,
+      "date": "2026-08-18",
+      "time": "07:30",
+      "type": "Commute",
+      "note": "Rushed, light drizzle."
+    },
+    {
+      "id": "13",
+      "label": "Morning run",
+      "steps": 2000,
+      "date": "2026-08-18",
+      "time": "14:00",
+      "type": "Run",
+      "note": "Walked with friends."
+    },
+    {
+      "id": "14",
+      "label": "Track jog",
+      "steps": 1600,
+      "date": "2026-08-18",
+      "time": "15:30",
+      "type": "Jog",
+      "note": "Short but brisk."
+    },
+    {
+      "id": "15",
+      "label": "Walk to the bus stop",
+      "steps": 5450,
+      "date": "2026-08-18",
+      "time": "16:45",
+      "type": "Commute",
+      "note": "Cooler than yesterday."
+    },
+    {
+      "id": "16",
+      "label": "Evening jog",
+      "steps": 2150,
+      "date": "2026-08-18",
+      "time": "20:45",
+      "type": "Jog",
+      "note": "Cooler than yesterday."
+    },
+    {
+      "id": "17",
+      "label": "Morning walk",
+      "steps": 1100,
+      "date": "2026-08-19",
+      "time": "08:00",
+      "type": "Walk",
+      "note": "Felt good, steady pace."
+    },
+    {
+      "id": "18",
+      "label": "Walk to college",
+      "steps": 2100,
+      "date": "2026-08-19",
+      "time": "10:30",
+      "type": "Commute",
+      "note": "Took the long route."
+    },
+    {
+      "id": "19",
+      "label": "Weekend hike",
+      "steps": 1050,
+      "date": "2026-08-19",
+      "time": "14:30",
+      "type": "Hike",
+      "note": "Walked with friends."
+    },
+    {
+      "id": "20",
+      "label": "Campus to canteen",
+      "steps": 2250,
+      "date": "2026-08-19",
+      "time": "15:15",
+      "type": "Commute",
+      "note": "Walked with friends."
+    },
+    {
+      "id": "21",
+      "label": "Evening walk",
+      "steps": 800,
+      "date": "2026-08-19",
+      "time": "17:45",
+      "type": "Walk",
+      "note": ""
+    },
+    {
+      "id": "22",
+      "label": "Weekend hike",
+      "steps": 5400,
+      "date": "2026-08-20",
+      "time": "07:00",
+      "type": "Hike",
+      "note": "Cooler than yesterday."
+    },
+    {
+      "id": "23",
+      "label": "Evening walk",
+      "steps": 3550,
+      "date": "2026-08-20",
+      "time": "08:15",
+      "type": "Walk",
+      "note": "Rushed, light drizzle."
+    },
+    {
+      "id": "24",
+      "label": "Morning run",
+      "steps": 1450,
+      "date": "2026-08-20",
+      "time": "09:30",
+      "type": "Run",
+      "note": "Cooler than yesterday."
+    },
+    {
+      "id": "25",
+      "label": "Riverside jog",
+      "steps": 800,
+      "date": "2026-08-21",
+      "time": "07:30",
+      "type": "Jog",
+      "note": "Took the long route."
+    },
+    {
+      "id": "26",
+      "label": "Weekend hike",
+      "steps": 2250,
+      "date": "2026-08-21",
+      "time": "08:30",
+      "type": "Hike",
+      "note": "Cooler than yesterday."
+    },
+    {
+      "id": "27",
+      "label": "Post-dinner walk",
+      "steps": 300,
+      "date": "2026-08-21",
+      "time": "10:00",
+      "type": "Walk",
+      "note": "Cooler than yesterday."
+    },
+    {
+      "id": "28",
+      "label": "Interval run",
+      "steps": 1000,
+      "date": "2026-08-21",
+      "time": "14:30",
+      "type": "Run",
+      "note": "Walked with friends."
+    },
+    {
+      "id": "29",
+      "label": "Hill trail",
+      "steps": 1400,
+      "date": "2026-08-21",
+      "time": "15:45",
+      "type": "Hike",
+      "note": "Short but brisk."
+    },
+    {
+      "id": "30",
+      "label": "Walk to college",
+      "steps": 1700,
+      "date": "2026-08-22",
+      "time": "07:30",
+      "type": "Commute",
+      "note": "Short but brisk."
+    },
+    {
+      "id": "31",
+      "label": "Morning walk",
+      "steps": 7250,
+      "date": "2026-08-22",
+      "time": "11:15",
+      "type": "Walk",
+      "note": ""
+    },
+    {
+      "id": "32",
+      "label": "Weekend hike",
+      "steps": 3100,
+      "date": "2026-08-22",
+      "time": "17:00",
+      "type": "Hike",
+      "note": "Rushed, light drizzle."
+    },
+    {
+      "id": "33",
+      "label": "Interval run",
+      "steps": 5650,
+      "date": "2026-08-23",
+      "time": "09:00",
+      "type": "Run",
+      "note": "Rushed, light drizzle."
+    },
+    {
+      "id": "34",
+      "label": "Morning walk",
+      "steps": 1800,
+      "date": "2026-08-23",
+      "time": "12:15",
+      "type": "Walk",
+      "note": "Rushed, light drizzle."
+    },
+    {
+      "id": "35",
+      "label": "Walk from station",
+      "steps": 1150,
+      "date": "2026-08-23",
+      "time": "20:15",
+      "type": "Commute",
+      "note": "Took the long route."
+    },
+    {
+      "id": "36",
+      "label": "Walk to the bus stop",
+      "steps": 1500,
+      "date": "2026-08-24",
+      "time": "13:15",
+      "type": "Commute",
+      "note": ""
+    },
+    {
+      "id": "37",
+      "label": "Walk to college",
+      "steps": 4150,
+      "date": "2026-08-24",
+      "time": "14:45",
+      "type": "Commute",
+      "note": "Short but brisk."
+    },
+    {
+      "id": "38",
+      "label": "Interval run",
+      "steps": 5300,
+      "date": "2026-08-24",
+      "time": "19:00",
+      "type": "Run",
+      "note": "Felt good, steady pace."
+    },
+    {
+      "id": "39",
+      "label": "Walk in the park",
+      "steps": 1850,
+      "date": "2026-08-25",
+      "time": "07:15",
+      "type": "Walk",
+      "note": ""
+    },
+    {
+      "id": "40",
+      "label": "Lunch break stroll",
+      "steps": 100,
+      "date": "2026-08-25",
+      "time": "11:30",
+      "type": "Walk",
+      "note": ""
+    },
+    {
+      "id": "41",
+      "label": "Hill trail",
+      "steps": 3500,
+      "date": "2026-08-25",
+      "time": "13:30",
+      "type": "Hike",
+      "note": "Cooler than yesterday."
+    },
+    {
+      "id": "42",
+      "label": "Walk to college",
+      "steps": 300,
+      "date": "2026-08-25",
+      "time": "18:00",
+      "type": "Commute",
+      "note": "Felt good, steady pace."
+    },
+    {
+      "id": "43",
+      "label": "Morning run",
+      "steps": 1200,
+      "date": "2026-08-25",
+      "time": "19:30",
+      "type": "Run",
+      "note": "Took the long route."
+    },
+    {
+      "id": "44",
+      "label": "Track jog",
+      "steps": 3600,
+      "date": "2026-08-26",
+      "time": "13:15",
+      "type": "Jog",
+      "note": ""
+    },
+    {
+      "id": "45",
+      "label": "Morning walk",
+      "steps": 2300,
+      "date": "2026-08-26",
+      "time": "20:30",
+      "type": "Walk",
+      "note": ""
+    },
+    {
+      "id": "46",
+      "label": "Hill trail",
+      "steps": 8300,
+      "date": "2026-08-26",
+      "time": "21:00",
+      "type": "Hike",
+      "note": "Walked with friends."
+    },
+    {
+      "id": "47",
+      "label": "Evening jog",
+      "steps": 5700,
+      "date": "2026-08-27",
+      "time": "13:00",
+      "type": "Jog",
+      "note": ""
+    },
+    {
+      "id": "48",
+      "label": "Evening walk",
+      "steps": 600,
+      "date": "2026-08-27",
+      "time": "14:00",
+      "type": "Walk",
+      "note": ""
+    },
+    {
+      "id": "49",
+      "label": "Hill trail",
+      "steps": 3100,
+      "date": "2026-08-27",
+      "time": "20:45",
+      "type": "Hike",
+      "note": ""
+    },
+    {
+      "id": "50",
+      "label": "Hill trail",
+      "steps": 1100,
+      "date": "2026-08-28",
+      "time": "06:00",
+      "type": "Hike",
+      "note": "Walked with friends."
+    },
+    {
+      "id": "51",
+      "label": "Track jog",
+      "steps": 2000,
+      "date": "2026-08-28",
+      "time": "13:15",
+      "type": "Jog",
+      "note": "Rushed, light drizzle."
+    },
+    {
+      "id": "52",
+      "label": "Morning walk",
+      "steps": 1200,
+      "date": "2026-08-28",
+      "time": "14:15",
+      "type": "Walk",
+      "note": "Rushed, light drizzle."
+    },
+    {
+      "id": "53",
+      "label": "Morning run",
+      "steps": 5050,
+      "date": "2026-08-28",
+      "time": "16:00",
+      "type": "Run",
+      "note": "Cooler than yesterday."
+    },
+    {
+      "id": "54",
+      "label": "Walk in the park",
+      "steps": 900,
+      "date": "2026-08-28",
+      "time": "18:30",
+      "type": "Walk",
+      "note": ""
+    }
+  ],
+  "settings": {
+    "id": 1,
+    "dailyGoal": 10000,
+    "userName": "Manthan"
+  }
+}

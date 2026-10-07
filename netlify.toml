@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# A single-page application serves every route from one HTML file. Without
+# this rule a visitor who opens /history directly, or refreshes on it, would
+# get a 404 from the host before React Router ever runs.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

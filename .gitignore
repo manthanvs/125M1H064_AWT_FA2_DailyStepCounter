@@ -1,0 +1,28 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+npm-debug.log*
+
+# Tooling leftovers
+_chromeprofile/
+~$*
+
+# Submission artifacts and document tooling - kept locally, not in the repo
+docs/*.docx
+docs/*.pdf
+docs/*.pptx
+docs/build_*.py
+docs/New folder/
+docs/screenshots/*-crop.png
+docs/diagrams/use-case-diagram.*
+docs/diagrams/wireframe-*
+docs/screenshots/*
+!docs/screenshots/fa2-01-dashboard.png
+!docs/screenshots/fa2-03-history-filtered.png
+!docs/screenshots/fa2-05-form-validation.png
+!docs/screenshots/fa2-10-mobile-dashboard.png

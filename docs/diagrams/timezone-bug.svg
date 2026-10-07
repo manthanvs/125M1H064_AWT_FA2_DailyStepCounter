@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" width="920" height="470" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="470" fill="#ffffff"/>
+
+  <text x="460" y="30" text-anchor="middle" font-size="17" font-weight="600" fill="#16202f">
+    The timezone defect - the same week, before and after the fix
+  </text>
+  <text x="460" y="50" text-anchor="middle" font-size="11.5" fill="#5f6b7f">
+    toISOString() converts to UTC first, so in IST (UTC+5:30) every bar showed the previous day's total
+  </text>
+
+  <!-- ============ BEFORE ============ -->
+  <rect x="30" y="68" width="410" height="330" rx="10" fill="#fdf2f2" stroke="#b91c1c" stroke-width="1.4"/>
+  <text x="50" y="92" font-size="13" font-weight="700" fill="#b91c1c">BEFORE - wrong</text>
+  <text x="50" y="110" font-size="10.5" fill="#7f1d1d">toISOString().slice(0, 10)</text>
+
+  <!-- goal line -->
+  <line x1="50" y1="226" x2="420" y2="226" stroke="#9aa5b5" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="424" y="229" font-size="9" fill="#5f6b7f">10k goal</text>
+
+  <!-- bars: 6950 12050 8600 10950 6950 14200 9400  (each day shifted back one) -->
+  <g>
+    <rect x="58"  y="258" width="38" height="74"  rx="3" fill="#93b4f5"/>
+    <rect x="110" y="205" width="38" height="127" rx="3" fill="#16a34a"/>
+    <rect x="162" y="241" width="38" height="91"  rx="3" fill="#93b4f5"/>
+    <rect x="214" y="216" width="38" height="116" rx="3" fill="#16a34a"/>
+    <rect x="266" y="258" width="38" height="74"  rx="3" fill="#93b4f5"/>
+    <rect x="318" y="182" width="38" height="150" rx="3" fill="#16a34a"/>
+    <rect x="370" y="233" width="38" height="99"  rx="3" fill="#93b4f5"/>
+  </g>
+  <g font-size="9.5" fill="#3d4859" text-anchor="middle">
+    <text x="77"  y="252">6,950</text>
+    <text x="129" y="199">12,050</text>
+    <text x="181" y="235">8,600</text>
+    <text x="233" y="210">10,950</text>
+    <text x="285" y="252">6,950</text>
+    <text x="337" y="176">14,200</text>
+    <text x="389" y="227">9,400</text>
+  </g>
+  <g font-size="10" fill="#5f6b7f" text-anchor="middle">
+    <text x="77"  y="348">Sat</text>
+    <text x="129" y="348">Sun</text>
+    <text x="181" y="348">Mon</text>
+    <text x="233" y="348">Tue</text>
+    <text x="285" y="348">Wed</text>
+    <text x="337" y="348">Thu</text>
+    <text x="389" y="348">Fri</text>
+  </g>
+  <line x1="50" y1="332" x2="420" y2="332" stroke="#c3cbd8" stroke-width="1.2"/>
+  <text x="50" y="378" font-size="13" font-weight="700" fill="#b91c1c">Goals met: 3 / 7</text>
+
+  <!-- ============ AFTER ============ -->
+  <rect x="480" y="68" width="410" height="330" rx="10" fill="#f1fbf4" stroke="#16a34a" stroke-width="1.4"/>
+  <text x="500" y="92" font-size="13" font-weight="700" fill="#15803d">AFTER - correct</text>
+  <text x="500" y="110" font-size="10.5" fill="#14532d">toLocalIso() - formats from local date parts</text>
+
+  <line x1="500" y1="226" x2="870" y2="226" stroke="#9aa5b5" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="874" y="229" font-size="9" fill="#5f6b7f">10k goal</text>
+
+  <!-- bars: 12050 8600 10950 6950 14200 9400 10250 -->
+  <g>
+    <rect x="508" y="205" width="38" height="127" rx="3" fill="#16a34a"/>
+    <rect x="560" y="241" width="38" height="91"  rx="3" fill="#93b4f5"/>
+    <rect x="612" y="216" width="38" height="116" rx="3" fill="#16a34a"/>
+    <rect x="664" y="258" width="38" height="74"  rx="3" fill="#93b4f5"/>
+    <rect x="716" y="182" width="38" height="150" rx="3" fill="#16a34a"/>
+    <rect x="768" y="233" width="38" height="99"  rx="3" fill="#93b4f5"/>
+    <rect x="820" y="224" width="38" height="108" rx="3" fill="#16a34a"/>
+  </g>
+  <g font-size="9.5" fill="#3d4859" text-anchor="middle">
+    <text x="527" y="199">12,050</text>
+    <text x="579" y="235">8,600</text>
+    <text x="631" y="210">10,950</text>
+    <text x="683" y="252">6,950</text>
+    <text x="735" y="176">14,200</text>
+    <text x="787" y="227">9,400</text>
+    <text x="839" y="218">10,250</text>
+  </g>
+  <g font-size="10" fill="#5f6b7f" text-anchor="middle">
+    <text x="527" y="348">Sat</text>
+    <text x="579" y="348">Sun</text>
+    <text x="631" y="348">Mon</text>
+    <text x="683" y="348">Tue</text>
+    <text x="735" y="348">Wed</text>
+    <text x="787" y="348">Thu</text>
+    <text x="839" y="348">Fri</text>
+  </g>
+  <line x1="500" y1="332" x2="870" y2="332" stroke="#c3cbd8" stroke-width="1.2"/>
+  <text x="500" y="378" font-size="13" font-weight="700" fill="#15803d">Goals met: 4 / 7</text>
+
+  <!-- footnote -->
+  <text x="30" y="430" font-size="11" fill="#3d4859">
+    The chart looked perfectly plausible either way, so clicking around never exposed it. A unit test with an exact
+  </text>
+  <text x="30" y="447" font-size="11" fill="#3d4859">
+    expected answer did - and dates.test.js now fails against the old implementation in any timezone ahead of UTC.
+  </text>
+</svg>

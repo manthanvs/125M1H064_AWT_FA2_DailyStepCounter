@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 770" width="940" height="770" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="940" height="770" fill="#ffffff"/>
+
+  <text x="470" y="28" text-anchor="middle" font-size="17" font-weight="600" fill="#16202f">
+    React Component Hierarchy - Daily Step Counter Interface
+  </text>
+  <text x="470" y="47" text-anchor="middle" font-size="11" fill="#5f6b7f">
+    Data flows down as props; user actions flow back up as callbacks
+  </text>
+
+  <!-- Spines -->
+  <g stroke="#9aa5b5" stroke-width="1.2" fill="none">
+    <path d="M58 104 L58 690"/>
+    <path d="M148 288 L148 316"/>
+    <path d="M238 330 L238 358"/>
+    <path d="M148 414 L148 442"/>
+    <path d="M148 624 L148 652"/>
+  </g>
+  <g stroke="#9aa5b5" stroke-width="1.2">
+    <line x1="58" y1="140" x2="108" y2="140"/>
+    <line x1="58" y1="182" x2="108" y2="182"/>
+    <line x1="58" y1="224" x2="108" y2="224"/>
+    <line x1="58" y1="266" x2="108" y2="266"/>
+    <line x1="58" y1="392" x2="108" y2="392"/>
+    <line x1="58" y1="476" x2="108" y2="476"/>
+    <line x1="58" y1="518" x2="108" y2="518"/>
+    <line x1="58" y1="560" x2="108" y2="560"/>
+    <line x1="58" y1="602" x2="108" y2="602"/>
+    <line x1="58" y1="686" x2="108" y2="686"/>
+    <line x1="148" y1="316" x2="198" y2="316"/>
+    <line x1="148" y1="442" x2="198" y2="442"/>
+    <line x1="148" y1="652" x2="198" y2="652"/>
+    <line x1="238" y1="358" x2="288" y2="358"/>
+  </g>
+
+  <!-- Root -->
+  <rect x="40" y="72" width="215" height="34" rx="6" fill="#dbe7ff" stroke="#2563eb" stroke-width="1.6"/>
+  <text x="52" y="94" font-size="13" font-weight="700" fill="#16202f">App.jsx</text>
+  <text x="128" y="94" font-size="10" fill="#1d4ed8">holds all shared state</text>
+
+  <!-- Level 1 -->
+  <g fill="#f4f6fb" stroke="#6b7686" stroke-width="1.2">
+    <rect x="108" y="124" width="205" height="32" rx="6"/>
+    <rect x="108" y="166" width="205" height="32" rx="6"/>
+    <rect x="108" y="208" width="205" height="32" rx="6"/>
+    <rect x="108" y="250" width="205" height="32" rx="6"/>
+    <rect x="108" y="376" width="205" height="32" rx="6"/>
+    <rect x="108" y="460" width="205" height="32" rx="6"/>
+    <rect x="108" y="502" width="205" height="32" rx="6"/>
+    <rect x="108" y="544" width="205" height="32" rx="6"/>
+    <rect x="108" y="586" width="205" height="32" rx="6"/>
+    <rect x="108" y="670" width="205" height="32" rx="6"/>
+  </g>
+
+  <!-- Level 2 -->
+  <g fill="#fbfcfe" stroke="#9aa5b5" stroke-width="1.2">
+    <rect x="198" y="300" width="195" height="32" rx="6"/>
+    <rect x="198" y="426" width="195" height="32" rx="6"/>
+    <rect x="198" y="636" width="195" height="32" rx="6"/>
+  </g>
+
+  <!-- Level 3 -->
+  <rect x="288" y="342" width="180" height="32" rx="6" fill="#ffffff" stroke="#c3cbd8" stroke-width="1.2"/>
+
+  <!-- Component names -->
+  <g font-size="12" fill="#16202f">
+    <text x="120" y="145">&lt;Header /&gt;</text>
+    <text x="120" y="187">&lt;AchievementBanner /&gt;</text>
+    <text x="120" y="229">&lt;GoalProgress /&gt;</text>
+    <text x="120" y="271">&lt;StatsGrid /&gt;</text>
+    <text x="210" y="321">&lt;StatCard /&gt;</text>
+    <text x="300" y="363">&lt;Icon /&gt;</text>
+    <text x="120" y="397">&lt;StepCounter /&gt;</text>
+    <text x="210" y="447">&lt;QuickAddButtons /&gt;</text>
+    <text x="120" y="481">&lt;GoalSelector /&gt;</text>
+    <text x="120" y="523">&lt;WeeklyChart /&gt;</text>
+    <text x="120" y="565">&lt;WeeklySummary /&gt;</text>
+    <text x="120" y="607">&lt;ActivityList /&gt;</text>
+    <text x="210" y="657">&lt;ActivityItem /&gt;</text>
+    <text x="120" y="691">&lt;Footer /&gt;</text>
+  </g>
+
+  <!-- Right column: props / responsibilities -->
+  <line x1="500" y1="66" x2="500" y2="712" stroke="#e3e8f0" stroke-width="1.2"/>
+  <text x="516" y="62" font-size="11" font-weight="700" fill="#5f6b7f">PROPS RECEIVED / KEY REACT CONCEPT</text>
+
+  <g font-size="10.5" fill="#3d4859">
+    <text x="516" y="94">useState: activities[], goal &#8212; derives totalSteps and the daily summary</text>
+    <text x="516" y="145">userName, dateLabel &#8212; props</text>
+    <text x="516" y="187">goalReached, steps, goal &#8212; conditional rendering (returns null)</text>
+    <text x="516" y="229">steps, goal, progress, goalReached &#8212; derived values</text>
+    <text x="516" y="271">definitions[], summary &#8212; lists and keys</text>
+    <text x="606" y="321">label, value, unit, icon, highlight &#8212; reusable tile</text>
+    <text x="696" y="363">name, size &#8212; shared SVG icon</text>
+    <text x="516" y="397">quickAddOptions[], onAddSteps, onReset &#8212; useState + events</text>
+    <text x="606" y="447">options[], onAddSteps &#8212; lists, keys, event handling</text>
+    <text x="516" y="481">presets[], goal, onChangeGoal &#8212; lists + callback up</text>
+    <text x="516" y="523">history[], goal &#8212; lists, keys, conditional styling</text>
+    <text x="516" y="565">history[], goal &#8212; derived aggregates</text>
+    <text x="516" y="607">activities[], onRemove &#8212; lists + empty state</text>
+    <text x="606" y="657">activity, onRemove &#8212; child-to-parent callback</text>
+    <text x="516" y="691">studentName, prn, subject &#8212; default props</text>
+  </g>
+
+  <!-- Legend -->
+  <g font-size="10.5">
+    <rect x="40" y="726" width="16" height="14" rx="3" fill="#dbe7ff" stroke="#2563eb" stroke-width="1.3"/>
+    <text x="64" y="737" fill="#3d4859">stateful (useState)</text>
+    <rect x="196" y="726" width="16" height="14" rx="3" fill="#f4f6fb" stroke="#6b7686" stroke-width="1.2"/>
+    <text x="220" y="737" fill="#3d4859">presentational (props only)</text>
+    <rect x="392" y="726" width="16" height="14" rx="3" fill="#ffffff" stroke="#c3cbd8" stroke-width="1.2"/>
+    <text x="416" y="737" fill="#3d4859">shared / reusable</text>
+  </g>
+</svg>
